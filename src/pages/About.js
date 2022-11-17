@@ -27,8 +27,10 @@ const About = () => {
         />
       </div>
       <div className="grid place-items-center mb-20">
-        <h1 className="text-3xl font-bold mb-10">Meet our team</h1>
-        <div className="flex justify-between space-x-5 w-full absolute overflow-x-scroll md:relative lg:overflow-x-hidden overscroll-none">
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-10">
+          Meet our team
+        </h1>
+        <div className="flex lg:justify-center lg:space-x-10 w-full absolute overflow-x-scroll md:relative lg:overflow-x-hidden overscroll-none">
           <div className="mt-52 md:mt-0 transform translate-x-1 lg:translate-x-0">
             <Team
               image={team1}
@@ -36,21 +38,21 @@ const About = () => {
               position="FOUNDER, CEO"
             />
           </div>
-          <div className="mt-52 md:mt-0 transform translate-x-2 lg:translate-x-0">
+          <div className="mt-52 md:mt-0 transform translate-x-3 lg:translate-x-0">
             <Team
               image={team2}
               name="Reward Perfection"
               position="FOUNDER, CEO"
             />
           </div>
-          <div className="mt-52 md:mt-0 transform translate-x-3 lg:translate-x-0">
+          <div className="mt-52 md:mt-0 transform translate-x-5 lg:translate-x-0">
             <Team
               image={team3}
               name="Reward Perfection"
               position="FOUNDER, CEO"
             />
           </div>
-          <div className="mt-52 md:mt-0 transform translate-x-4 lg:translate-x-0">
+          <div className="mt-52 md:mt-0 transform translate-x-7 lg:translate-x-0">
             <Team
               image={team4}
               name="Reward Perfection"
