@@ -9,7 +9,7 @@ const Contact = () => {
         <meta charSet="utf-8" />
         <title>Contact</title>
       </Helmet>
-      <div className="grid place-items-center mt-32 text-center">
+      <div className="grid place-items-center mt-20 md:mt-32 text-center">
         <img src={reach} alt="Reach us" width="219" className="mb-10" />
         <div className="flex flex-col">
           <h1 className="text-2xl lg:text-5xl font-bold mb-10">
