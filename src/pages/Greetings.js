@@ -1,7 +1,7 @@
 import globe from '../Assets/globe.svg';
 const Greetings = () => {
   return (
-    <div className="mt-20 flex flex-col items-center gap-2 view">
+    <div className="mt-20 flex flex-col items-center gap-2 p-4 view">
       <img src={globe} alt="World of opportunities" width="352" />
       <h3 className="font-light tracking-wide text-4xl mt-10 mb-10">
         The world of opportunities is yours
