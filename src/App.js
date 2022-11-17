@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Error from './components/Error';
 import { SharedLayout, Home, About, Contact, Greetings } from './pages/Index';
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="greetings" element={<Greetings />} />
+            <Route path="*" element={<Error />} />
           </Route>
         </Routes>
       </BrowserRouter>
