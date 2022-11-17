@@ -3,3 +3,18 @@
 @tailwind components;
 
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafdfa;
+}
+.view {
+  min-height: 65vh;
+}
+.container::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
+}
