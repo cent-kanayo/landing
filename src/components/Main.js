@@ -37,11 +37,11 @@ const Main = () => {
   return (
     <main className="container mx-auto view mt-10 mb-20 p-3 view">
       <section className="flex flex-col lg:flex-row md:p-6 lg:justify-between lg:items-center gap-10 lg:gap-40">
-        <div className="flex-1">
-          <p className="text-textGray-200 text-2xl tracking-wider mb-2">
+        <div className="flex-1 grid place-items-center">
+          <p className="text-textGray-200 text-2xl tracking-wider mb-2 place-self-start">
             Join Silfrica today
           </p>
-          <h1 className="text-2xl font-bold text-textGray-400 mb-10">
+          <h1 className="text-2xl font-bold text-textGray-400 mb-10 place-self-start">
             Create & access opportunities <br /> in tertiary institutions
           </h1>
           <form className="flex flex-col gap-6 w-11/12" onSubmit={handleSubmit}>
