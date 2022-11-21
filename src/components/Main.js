@@ -37,22 +37,22 @@ const Main = () => {
   return (
     <main className="container mx-auto view mt-10 mb-20 p-3 view">
       <section className="flex flex-col lg:flex-row md:p-6 lg:justify-between lg:items-center gap-10 lg:gap-40">
-        <div className="flex-1 grid place-items-center">
-          <p className="text-textGray-200 text-2xl tracking-wider mb-2 place-self-start">
+        <div className="flex-1 ">
+          <p className="text-textGray-200 text-2xl tracking-wider mb-2 ">
             Join Silfrica today
           </p>
-          <h1 className="text-2xl font-bold text-textGray-400 mb-10 place-self-start">
+          <h1 className="text-2xl font-bold text-textGray-400 mb-10">
             Create & access opportunities <br /> in tertiary institutions
           </h1>
-          <form className="flex flex-col gap-6 w-11/12" onSubmit={handleSubmit}>
-            <div className="border-2 border-gray-400 p-2 rounded-md">
+          <form className="flex flex-col gap-4 md:6" onSubmit={handleSubmit}>
+            <div className="border-2 border-gray-400 p-1 md:p-2 rounded-md h-[40px] md:h-[56px] flex items-center">
               <input
                 type="text"
                 placeholder="Name"
                 className="outline-none focus:outline-none w-full p-2 bg-inherit placeholder:font-semibold"
               />
             </div>
-            <div className="border-2 border-gray-400 p-2 rounded-md">
+            <div className="border-2 border-gray-400 p-1 md:p-2 rounded-md h-[40px] md:h-[56px] flex items-center">
               <select
                 name=""
                 id=""
@@ -66,18 +66,18 @@ const Main = () => {
               </select>
             </div>
 
-            <div className="border-2 border-gray-400 p-2 rounded-md">
+            <div className="border-2 border-gray-400 p-1 md:p-2 rounded-md h-[40px] md:h-[56px] flex items-center">
               <input
                 type="email"
                 placeholder="Email address"
                 className="outline-none focus:outline-none w-full p-2 bg-inherit placeholder:font-semibold"
               />
             </div>
-            <div className="border-2 border-gray-400 p-2 rounded-md">
+            <div className="border-2 border-gray-400 p-1 md:p-2 rounded-md h-[40px] md:h-[56px] flex items-center">
               <select
                 name=""
                 id=""
-                className="outline-none focus:outline-none w-full p-2 bg-inherit font-semibold mb-2"
+                className="outline-none focus:outline-none w-full p-2 bg-inherit font-semibold"
               >
                 <option value="">What is your major challenge?</option>
               </select>
